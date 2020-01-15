@@ -22,6 +22,7 @@ class Configuration {
         this.agencies = [
             {
                 name: 'Routes',
+                hideRouteNumber: true,
                 parser: new AvailtecParser('https://akron.gotransitapp.com/api/no.php/InfoPoint')
             }
         ];
