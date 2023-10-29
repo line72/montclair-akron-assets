@@ -18,6 +18,10 @@ class Configuration {
     constructor() {
         // Akron, OH
         this.center = [41.084569, -81.515555];
+        this.tileserver = {
+            url: 'https://akron.gotransitapp.com/tiles/{z}/{x}/{y}.png',
+            subdomains: ''
+        };
 
         this.agencies = [
             {
